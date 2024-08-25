@@ -1,4 +1,4 @@
-FROM admin44449999/ptplay:latest
+FROM admin44449999/aryanmadeallworking1
 
 RUN apt -qq update && apt -qq install -y git wget ffmpeg
 WORKDIR /usr/src/app
